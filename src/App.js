@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import marked from 'marked';
-
-
-
-//import output from './output'
-
-
+import MarkdownPreview from './MarkdownPreview'
 
 {/*const Child = (props) => {
 
@@ -44,21 +38,6 @@ class App extends React.Component {
 
 
 
-class MarkdownPreview extends React.Component {
 
- createMarkup() {
-   let md = marked(this.props.markdown);
-
-   return { __html :  md }
- }
-
- render() {
-   return (
-     <div dangerouslySetInnerHTML= {this.createMarkup()} >
-
-       </div>
-   )
- }
-}
 
 export default App;
