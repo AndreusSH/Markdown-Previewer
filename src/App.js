@@ -27,7 +27,8 @@ class App extends React.Component {
  // change code above this line
  render() {
    return (
-     <div  className = "column">
+     
+     <div>
         <textarea type="text" onChange={this.handleChange.bind(this)} value={this.state.input} />
       {/* <Child output = {this.state.input}/>*/}
       <MarkdownPreview markdown={this.state.input}/>

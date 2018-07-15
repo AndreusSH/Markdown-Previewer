@@ -13,9 +13,11 @@ class MarkdownPreview extends React.Component {
 
  render() {
    return (
+      <section id = "right">
      <div dangerouslySetInnerHTML= {this.createMarkup()} >
 
        </div>
+       </section>
    )
  }
 
