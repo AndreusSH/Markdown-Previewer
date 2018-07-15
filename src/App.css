@@ -39,6 +39,6 @@ section{
    position: relative;
   top: 50px;
    float: right;
-
+   font-weight: normal;
    width: 40%;
  }
