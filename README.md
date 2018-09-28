@@ -10,3 +10,4 @@ I used HTML, CSS, React.Js and Marked a library that can help you to parse MarkD
 
 
 
+![alt text](https://github.com/AndreusSH/Markdown-Previewer/blob/master/Markdown_Previewer.PNG)
